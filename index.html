@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <script src="https://kit.fontawesome.com/95735b970a.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+
+    <title>Portfólio</title>
+</head>
+    <body>
+        <div class="container">
+            <header class="cabecalho">
+            
+                <div class="meuport">
+                    <h1>Meu Portifólio</h1>
+                </div>
+            
+                <div class="cabecalho_sociais">
+                    <a href="https://www.facebook.com/profile.php?id=100009640321504"><img src="./assets/img/fb.png" alt=""></a>
+                    <a href="https://www.instagram.com/gabrielsecario/"><img src="./assets/img/ig.png" alt=""></a>
+                    <a href="https://twitter.com/G_SecTeixeira?s=08"><img src="./assets/img/tt.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/gabrielsecario/"><img src="./assets/img/iconlinkdef.png" alt=""></a>
+                </div>
+           
+            </header>
+               
+            <div class="icons">
+                <button onclick="mudarconteudo('sobre',this)" ><i class="fas fa-user-circle fa-2x"></i></button>
+                <button onclick="mudarconteudo('hobbies',this)"><i class="fas fa-dice fa-2x"></i></button>
+                <button onclick="mudarconteudo('exp',this)"><i class="fas fa-suitcase fa-2x"></i></button>
+                <button onclick="mudarconteudo('formacao',this)"><i class="fas fa-graduation-cap fa-2x"></i></button>
+                <button onclick="mudarconteudo('estudos',this)"><i class="fas fa-book fa-2x"></i></button>
+                <button onclick="mudarconteudo('meta',this)"><i class="fas fa-bullseye fa-2x"></i></button>
+            </div>
+            <div class="icons2">
+                <button onclick="mudarconteudo('sobre',this)" ><i class="fas fa-user-circle fa-3x"></i></button>
+                <button onclick="mudarconteudo('hobbies',this)"><i class="fas fa-dice fa-3x"></i></button>
+                <button onclick="mudarconteudo('exp',this)"><i class="fas fa-suitcase fa-3x"></i></button>
+                <button onclick="mudarconteudo('formacao',this)"><i class="fas fa-graduation-cap fa-3x"></i></button>
+                <button onclick="mudarconteudo('estudos',this)"><i class="fas fa-book fa-3x"></i></button>
+                <button onclick="mudarconteudo('meta',this)"><i class="fas fa-bullseye fa-3x"></i></button>
+            </div>
+        
+                <div class="conteudo">
+                    <figure class="minhafoto">
+                    <img src="./assets/img/minhafoto.jpg"  alt="">   
+                    </figure>                 
+                    <h1 id="titulo">Sobre mim</h1>
+                    <p id="txt1">Olá! Meu nome é <b>Gabriel Secario Teixeira</b>, tenho 22 anos e moro em Poá - SP<br>
+                    Atualmente moro com a minha mãe, estou estudando para conquistar minha independência financeira.</p>
+                </div>
+            
+        </div>    
+        <footer>
+            <div class="rodape_sociais">
+                <a href="https://www.facebook.com/profile.php?id=100009640321504"><img src="./assets/img/fb.png" alt=""></a>
+                <a href="https://www.instagram.com/gabrielsecario/"><img src="./assets/img/ig.png" alt=""></a>
+                <a href="https://twitter.com/G_SecTeixeira?s=08"><img src="./assets/img/tt.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/gabrielsecario/"><img src="./assets/img/iconlinkdef.png" alt=""></a>
+            </div>
+        </footer>    
+    
+        
+    </body>
+
+</html>

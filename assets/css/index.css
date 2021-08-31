@@ -1,0 +1,142 @@
+body,figure,img,div,header,nav,main,ul,li,a,p,section,article,h1,h2,footer{
+    font-family: 'Prompt', sans-serif;
+}
+body{
+   background-color: #343434;
+   
+}
+
+
+.container{   
+    display: grid;
+    place-items: center;
+
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 5rem;
+    padding: 0 13%;
+    width: 75%;
+
+}
+.cabecalho .cabecalho_sociais a{
+    padding: 0 0 0 0.2rem;
+    display: none;
+}
+
+.icons{
+    text-align: center;
+    margin-top: 2%;
+    
+}
+.icons2{
+    text-align: center;
+    margin-top: 2%;
+    display: none;
+    
+}
+.icons i{
+    padding: 0 2% ;
+}
+.fa, .fas {
+    font-weight: 900;
+    color: royalblue;
+}
+
+.conteudo{
+    background-color: #141414;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-top: 2%;
+    text-align: center;
+    place-content: middle;
+    color: white;
+    width: 90%;
+    margin-top: 1%;
+   
+}
+
+
+.conteudo img{
+    border-radius: 10rem;
+    width: 90%;
+    border: 4px solid royalblue;
+}
+
+
+button{
+    background: none;
+    border: none;
+}
+footer{
+    background-color: black;
+    display: grid;
+    place-items: center;
+    margin-top: 3%;
+}
+.rodape_sociais{
+    padding: 0.5rem;
+}
+@media screen and (min-width: 350px){
+.conteudo img{
+    width: 80%;
+}
+}
+@media screen and (min-width: 400px){
+.conteudo img{
+    width: 70%; 
+}
+.icons{
+    display: none;
+}
+.icons2{
+    display: block;
+}    
+}
+@media screen and (min-width: 450px){
+.conteudo img{
+    width: 60%;
+}   
+}
+@media screen and (min-width: 500px){
+.conteudo img{
+    width: 50%;
+} 
+}
+@media screen and (min-width: 550px){
+.conteudo img{
+    width: 40%;   
+}
+.cabecalho .cabecalho_sociais a{
+    display: inline;
+}
+footer{
+    display: none;
+}
+}
+@media screen and (min-width: 600px){
+.conteudo img{
+    width: 30%;   
+}
+.conteudo{
+    width: 80%;
+    height: 500px;
+}
+
+}
+@media screen and (min-width: 900px){
+.conteudo img{
+    width: 25%;   
+}
+.conteudo{
+    width: 60%;
+}
+.icons{
+    margin-top: 0;
+    
+}
+}
