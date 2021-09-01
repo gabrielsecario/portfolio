@@ -14,15 +14,13 @@ body{
 
 }
 .cabecalho{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    
     background-color: black;
     border-radius: 5rem;
     padding: 0 13%;
     width: 75%;
-
+    display: grid;
+    place-items: center;
 }
 
 .cabecalho .meuport h1{
@@ -118,12 +116,6 @@ footer{
 .conteudo img{
     width: 40%;   
 }
-.cabecalho .cabecalho_sociais a{
-    display: inline;
-}
-footer{
-    display: none;
-}
 }
 @media screen and (min-width: 600px){
 .conteudo img{
@@ -133,7 +125,18 @@ footer{
     width: 80%;
     height: 500px;
 }
-
+.cabecalho .cabecalho_sociais a{
+    display: inline;
+}
+footer{
+    display: none;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 }
 @media screen and (min-width: 900px){
 .conteudo img{
