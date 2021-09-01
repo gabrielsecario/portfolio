@@ -17,7 +17,7 @@ body{
     
     background-color: black;
     border-radius: 5rem;
-    padding: 0 13%;
+    padding: 0 10%;
     width: 75%;
     display: grid;
     place-items: center;
@@ -125,7 +125,7 @@ footer a{
 }
 .conteudo{
     width: 80%;
-    height: 500px;
+    height: 480px;
 }
 }
 @media screen and (min-width: 900px){
