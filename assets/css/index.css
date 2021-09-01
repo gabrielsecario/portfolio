@@ -24,13 +24,7 @@ body{
     width: 75%;
 
 }
-.cabecalho .meuport{
-    color: white;
-}
-.cabecalho .meuport h1{
-    font-size: 1em;
-    color: white;
-}
+
 .cabecalho .cabecalho_sociais a{
     padding: 0 0 0 0.2rem;
     display: none;
