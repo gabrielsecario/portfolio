@@ -23,6 +23,9 @@ body{
     width: 75%;
 
 }
+.cabecalho .meuport h1{
+    font-size: 1.9em;
+}
 .cabecalho .cabecalho_sociais a{
     padding: 0 0 0 0.2rem;
     display: none;
