@@ -127,6 +127,11 @@ footer a{
     width: 80%;
     height: 500px;
 }
+}
+@media screen and (min-width: 900px){
+.conteudo img{
+    width: 25%;   
+}
 .cabecalho .cabecalho_sociais a{
     display: inline;
 }
@@ -138,11 +143,6 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-}
-}
-@media screen and (min-width: 900px){
-.conteudo img{
-    width: 25%;   
 }
 .conteudo{
     width: 60%;
