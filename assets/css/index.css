@@ -79,13 +79,15 @@ button{
 }
 footer{
     background-color: black;
-    display: grid;
-    place-items: center;
+    display: flex;
+    place-content: center;
     margin-top: 3%;
+    padding: 0.7rem;
 }
-.rodape_sociais{
-    padding: 0.5rem;
+footer a{
+    margin-inline: 2%;
 }
+
 @media screen and (min-width: 350px){
 .conteudo img{
     width: 80%;
