@@ -19,4 +19,6 @@ function mudarconteudo(param){
         document.getElementById("txt1").innerHTML = "Minha meta atual é conseguir me inserir no mercado de TI.<br> A princípio, conseguir um estágio na área de desenvolvimento e me tornar um DEV competente <br> Podendo, assim, investir ainda mais nos meus estudos e almejar metas ainda maiores."
         document.getElementById("titulo").innerHTML = "Metas"
     }
+if (document.querySelector('body').offsetHeight > window.innerHeight)
+document.querySelector('footer').classList.add('footer-relative');
 }
