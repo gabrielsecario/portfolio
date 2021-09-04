@@ -68,7 +68,14 @@ body{
     margin-top: 1%;
    
 }
-
+.conteudo:hover{
+    box-shadow:
+                2px 2px royalblue,
+                3px 3px royalblue,
+                5px 5px royalblue;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
 
 .conteudo img{
     border-radius: 10rem;

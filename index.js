@@ -1,7 +1,7 @@
 function mudarconteudo(param){
     parametro = param
     if(parametro == "sobre"){
-        document.getElementById("txt1").innerHTML = "Olá! Meu nome é <b>Gabriel Secario Teixeira</b>, tenho 22 anos e moro em Poá - SP<br>Atualmente estou estudando para conquistar minha independência financeira."
+        document.getElementById("txt1").innerHTML = "Olá! Meu nome é <b>Gabriel Secario Teixeira</b>, tenho 22 anos e moro em Poá - SP <br> Atualmente estou estudando para conquistar minha independência financeira."
         document.getElementById("titulo").innerHTML = "Sobre mim"
     } else if(parametro == "hobbies"){
         document.getElementById("txt1").innerHTML = "Meu principal hobby/passatempo é jogar, principalmente jogos online e competitivos. <br> Além de jogar, gosto muito de escutar música, assistir séries/lives e ler (embora não tenha lido muito há algum tempo)"
@@ -20,3 +20,4 @@ function mudarconteudo(param){
         document.getElementById("titulo").innerHTML = "Metas"
     }
 }
+
