@@ -39,30 +39,28 @@ body{
     display: none;
 }
 
-.icons{
+.menu{
     text-align: center;
-    margin-top: 2%;
+    margin-top: 1%;  
+    display: flex;
+    width: 100%;
+    place-content: center;  
+}
+.menu img {
+    padding: 0 0.5rem;
+    width: 30px;
+}
+
+.menu button{
     
-}
-.icons2{
-    text-align: center;
-    margin-top: 2%;
-    display: none;
-    
-}
-.icons i{
-    padding: 0 2% ;
-}
-.fa, .fas {
-    font-weight: 900;
-    color: royalblue;
+    cursor: pointer;
 }
 
 .conteudo{
     background-color: #141414;
     padding: 1rem;
     border-radius: 1.5rem;
-    margin-top: 2%;
+    margin-top: 1%;
     text-align: center;
     place-content: middle;
     color: white;
@@ -104,12 +102,6 @@ footer a{
 .conteudo img{
     width: 70%; 
 }
-.icons{
-    display: none;
-}
-.icons2{
-    display: block;
-}    
 }
 @media screen and (min-width: 450px){
 .conteudo img{
@@ -133,9 +125,14 @@ footer{
 .conteudo img{
     width: 30%;   
 }
+
 .conteudo{
     width: 80%;
     height: 400px;
+}
+.menu img{
+    width: 40px;
+    
 }
 }
 @media screen and (min-width: 900px){
@@ -160,9 +157,5 @@ footer{
 }
 .conteudo{
     width: 60%;
-}
-.icons{
-    margin-top: 0;
-    
 }
 }
